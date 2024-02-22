@@ -17,6 +17,11 @@
     "commit": "git-cz",
     "commitlint": "commitlint --edit"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
   "dependencies": {
     "pinia": "^2.1.7",
     "postcss-html": "^1.6.0",
