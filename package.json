@@ -14,7 +14,8 @@
     "lint:style": "stylelint **/*.{vue,css}",
     "check": "tsno run ./scripts/check.ts",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "pinia": "^2.1.7",
